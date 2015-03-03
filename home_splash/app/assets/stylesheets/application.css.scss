@@ -18,6 +18,16 @@
 html {
   font-family: Arial;
   font-size: 20px;
+  color: white;
+}
+
+body {
+  background: image-url("awesome.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   background-color: #eef;
 }
 
@@ -31,20 +41,26 @@ html {
   padding-top: 1em;
   color: white;
   left: 0;
+
+  a {
+    color: white;
+    text-decoration: none;
+    &:visited {
+      color: #eee;
+    }
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+
 }
 
-#footer a {
-  color: white;
-  text-decoration: none;
+.shadowed {
+  text-shadow: 2px 2px 0 #000; // add shadow for contrast
 }
 
-#footer a:visited {
-  color: #eee;
-}
 
-#footer a:hover {
-  color: #ccc;
-}
 
 
 
