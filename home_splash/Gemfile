@@ -42,6 +42,9 @@ gem 'thin'
 gem 'font-awesome-rails'
 
 group :development, :test do
+  # gives us great and colofor puts functionality
+  gem 'awesome_print'
+
   # Quiet those assets down!!! SIMMA DOWN NAH!
   gem 'quiet_assets'
 
