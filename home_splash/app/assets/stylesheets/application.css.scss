@@ -44,6 +44,26 @@ body {
   }
 }
 
+#clearance {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em 3em 3em 3em;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 13em;
+
+  a {
+    color: #eee;
+    text-decoration: none;
+    display: block;
+  }
+
+  div {
+    padding-top: 0.3em;
+  }
+
+}
+
 #footer {
   position: absolute;
   bottom: 0;
