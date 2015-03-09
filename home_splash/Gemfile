@@ -41,6 +41,9 @@ gem 'thin'
 # adding font-awesomeness
 gem 'font-awesome-rails'
 
+# User auth with clearance
+gem 'clearance'
+
 group :development, :test do
   # gives us great and colofor puts functionality
   gem 'awesome_print'
