@@ -16,6 +16,7 @@
  */
 
 $minor-sized: 0.7em;
+$rounded: 5px;
 
 html {
   font-family: Arial;
@@ -47,7 +48,7 @@ body {
 #clearance {
   background-color: rgba(0,0,0,0.5);
   padding: 1em 3em 3em 3em;
-  border-radius: 5px;
+  border-radius: $rounded;
   margin: 0 auto;
   text-align: center;
   width: 13em;
@@ -62,6 +63,29 @@ body {
     padding-top: 0.3em;
   }
 
+  .other-links {
+    font-size: $minor-sized;
+    margin-top: 2em;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255, 0.6);
+    border-radius: $rounded;
+
+    a {
+      padding: 2px;
+    }
+
+  }
+
+}
+
+.flash.notice {
+  background-color: rgba(255,0,0,0.5);
+  padding: 1em;
+  width: 25em;
+  margin: 0.5em auto;
+  border-radius: $rounded;
+  font-weight: bold;
+  text-align: center;
 }
 
 #footer {
