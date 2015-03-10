@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Quote.create(quip: "Wherever you go there you are!")
-Quote.create(quip: "Something Witty")
-Quote.create(quip: "Second mouse gets the cheeese")
+Quote.create(quip: "Something Witty", author: "Gant")
+Quote.create(quip: "Second mouse gets the cheeese", author: "Mitzie")
 Quote.create(quip: "Fool-proof should not be a challenge")
